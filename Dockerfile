@@ -10,6 +10,12 @@ RUN pip install rpy2
 RUN pip install singledispatch
 RUN pip3 install rpy2
 
+# Installing python libraries
+RUN pip install BeautifulSoup4
+RUN pip3 install BeautifulSoup4
+RUN pip install nltk
+RUN pip3 install nltk
+
 # Installing julia
 #RUN apt-get update && apt-get install -y \
 #	software-properties-common \
